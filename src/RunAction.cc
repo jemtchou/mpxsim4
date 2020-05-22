@@ -46,9 +46,5 @@ void RunAction::EndOfRunAction(const G4Run* run)
  analysisManager->CloseFile();
 }
 
-void RunAction::AddEdep(G4int n, G4double edep)
-{
-}
-
 
 

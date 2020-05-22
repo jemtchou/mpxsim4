@@ -13,8 +13,6 @@ class RunAction : public G4UserRunAction
     RunAction();
     virtual ~RunAction();
 
-    void AddEdep (G4int n, G4double edep); 
-
     virtual void BeginOfRunAction(const G4Run* run);
     virtual void   EndOfRunAction(const G4Run* run);
 
